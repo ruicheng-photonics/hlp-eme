@@ -1,0 +1,46 @@
+# ==============================================================================
+# User-Defined Constraints
+# ==============================================================================
+
+# Lumerical simulation/script files
+*.lms
+
+# Text files containing "log" (case-insensitive variants)
+*log*.txt
+*Log*.txt
+*LOG*.txt
+
+# Cache directories and data dumps
+*[Cc]ach*
+*[Cc]ache*
+.cache/
+
+# ==============================================================================
+# Python Runtime & Bytecode
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments and distributions
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# ==============================================================================
+# IDEs & System Metadata
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Numerical & plotting caches
+.ipynb_checkpoints/
+.matplotlib/
